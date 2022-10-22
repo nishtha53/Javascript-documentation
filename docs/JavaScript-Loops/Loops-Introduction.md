@@ -61,4 +61,62 @@ for (let i=0; i<details.length ;i++)
 
 **break:** completely terminates the whole loop.
 
+## Nested loop is  JavaScript
 
+- Nested Loop is a loop that is present inside another loop. Javascript supports the nested loop in javascript. The loop can have one or more or simple can have any number of loops defined inside another loop, and also can behave n level of nesting inside the loop. 
+
+```javascript
+for (i = 0; i < 5; i++) 
+{
+   for (j = 0; j < 2; j++) 
+   {
+         console.log("The number is i = " + i + " and j = " + j ) 
+   }
+}
+```
+
+
+## While Loop 
+
+The while loop loops through a block of code as long as a specified condition is true.
+
+## Syntax
+
+```javascript
+while (condition) {
+  // code block to be executed
+}
+```
+
+## Exmaple
+
+```javascript
+while(i<10)
+{
+    console.log("Hello world!");
+    i++;
+}
+```
+
+## DO while Loop
+
+- The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+## Syntax:
+
+```javascript
+do {
+  // code block to be executed
+}
+while (condition);
+```
+
+## Example
+
+```javascript
+do {
+  console.log("The number is " + i);
+  i++;
+}
+while (i < 10);
+```
