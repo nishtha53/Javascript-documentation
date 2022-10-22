@@ -12,6 +12,13 @@ sidebar_position: 3
 
 => JavaScript is Synchronous single-threaded language.
 
+### JavaScript context is divided in two parts:
+
+1) Memory component
+2) Code component 
+
+=> In memory component, containes variables and functions as the key-value pairs. Also, know as variable enviorment.
+=> In code component where whole JavaScript code is executed.Also, know as Thread of Execution
 
 ## Lets understand with image:
 
