@@ -49,4 +49,6 @@ Here concept of `call stack` comes in picture.
 
 - Call stack is a place where execution contexts get stacked on top of each other, to keep track of where we are in execution.
 
+**=> Call stack also know as Execution context stack, program stack, control stack, runtime stack, Machine stack.**
+
 ![image1](./example.jpg)
