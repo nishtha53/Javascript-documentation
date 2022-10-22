@@ -2,13 +2,16 @@
 sidebar_position: 3
 ---
 
-=> JavaScript code will work line by line.
+=> JavaScript code will one line at a time.
 
 => JavaScript code runs always into execution context.
 
 => First top level code will be excuted and then last line lineby line.
 
 => first function will be declared and then only function can be called.
+
+=> JavaScript is Synchronous single-threaded language.
+
 
 ## Lets understand with image:
 
