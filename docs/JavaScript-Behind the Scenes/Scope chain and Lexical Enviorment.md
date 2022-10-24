@@ -45,5 +45,9 @@ and under first function there is if condtion and varaibles `decade` is block sc
 
 ![diff](./diff.jpg)
 
+## Summary of Scope chain
+
+![summary](./summary.jpg)
+
 
 
