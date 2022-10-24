@@ -7,7 +7,7 @@ sidebar_position: 4
 - How our programs variable are organized and accessed. "Where do variables live?" or "Where we can access certail variables or where not?"
 
 
-## What is lexical scoping?
+## What is lexical (sequence) scoping?
 
 - Scoping is controlled by where we exactly write our functions and code blocks.
 
