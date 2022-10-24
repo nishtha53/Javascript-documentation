@@ -44,33 +44,40 @@ and under first function there is if condtion and varaibles `decade` is block sc
 ## Example:
 
 
-```Javascript
+```javascript
 'use strict';
-
-function calcAge(birthyear)
-{
-    const age = 2022 - birthyear;
-
-    function printAge()
-    {
-        const output = `your age is ${age}, Born in ${birthyear}`
-        console.log(output)
+function calcAge(birthYear) {
+  const age = 2037 - birthYear;
+  function printAge() {
+    let output = `${firstName}, you are ${age}, born in ${birthYear}`;
+    console.log(output);
+    if (birthYear >= 1981 && birthYear <= 1996) {
+      var millenial = true;
+      // Creating NEW variable with same name as outer scope's variable
+      const firstName = 'Steven';
+      // Reasssigning outer scope's variable
+      output = 'NEW OUTPUT!';
+      const str = `Oh, and you're a millenial, ${firstName}`;
+      console.log(str);
     }
-    printAge();
-
-    return age;
+    // console.log(str);
+    console.log(millenial);
+    console.log(output);
+  }
+  printAge();
+  return age;
 }
-
-const firstName = "Nishtha";
-console.log(firstName);
-calcAge(2002);
+const firstName = 'Jonas';
+calcAge(1991);
 
 //output
-Nishtha
-your age is 20, Born in 2002
+Jonas, you are 46, born in 1991
+Oh, and youre a millenial, Steven
+true
+NEW OUTPUT!
 ```
 
-In above example `firtName` variable is global scope so it is printed first and then `calcAge` function is called execution will go to function scope and calculate age and then `printAge` function will printed and ouput varibale will be printed.
+**=> In above example `firtName` variable is global scope so it is printed first and then `calcAge` function is called execution will go to function scope and calculate age and then `printAge` function will printed and ouput varibale will be printed. Under if there is const variable name as millenial so it is block scope so in str it is printed**
 
 
 ## Scope chain VS Call Stack
