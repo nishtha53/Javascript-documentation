@@ -20,9 +20,16 @@ const details = {
 console.log(person.calcAge(1991));  // 46
 ```
 
-## this keyword
+##  this keyword
 
 - In JavaScript, the this keyword refers to an object. Which object depends on how this is being invoked (used or called).
+
+- Special varibale that is created for every execution context. Takes the vale from owner of the function in which `this` keyword is used.
+
+- Value of `this` keyword is not static. Its depend on how function is called, and its value only assigned when the function is actually called.
+
+![this](../JavaScript-Behind%20the%20Scenes/this.jpg)
+
 
 ```javascript
 const details = {
