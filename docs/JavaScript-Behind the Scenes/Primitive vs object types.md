@@ -17,3 +17,9 @@ console.log('Friend:', friend);
 console.log('Me', me);
 ```
 **=> In above example for object me age value assigns to 27 and friend name object is also created and age value is 27.**
+
+![primive](./primitve.jpg)
+
+**Explaination of above example**
+
+![explain](./primitive%20example%20.jpg)
