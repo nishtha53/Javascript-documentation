@@ -23,3 +23,22 @@ console.log('Me', me);
 **Explaination of above example**
 
 ![explain](./primitive%20example%20.jpg)
+
+## Copying objects
+
+```javascript
+const jessica2 = {
+  firstName: 'Jessica',
+  lastName: 'Williams',
+  age: 27,
+  family: ['Alice', 'Bob'],
+};
+const jessicaCopy = Object.assign({}, jessica2);
+jessicaCopy.lastName = 'Davis';
+jessicaCopy.family.push('Mary');
+jessicaCopy.family.push('John');
+console.log('Before marriage:', jessica2);
+console.log('After marriage: ', jessicaCopy);
+```
+
+=> new Object is copy to jessicacopy. and to see old last name value used assign() to assign old last name value and console as jessica2.
