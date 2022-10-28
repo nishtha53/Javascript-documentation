@@ -88,3 +88,27 @@ console.log(fruitProcessor(3,4));
 //output
 Juice with 12 pieces of apples and 16 pieces of oranges
 ```
+
+## Arguments keywords
+
+=> Arguments keywords works only for regular functions.
+
+```javascript
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpr(2, 5);
+addExpr(2, 5, 8, 12);
+var addArrow = (a, b) => {
+  console.log(arguments);
+  return a + b;
+};
+addArrow(2, 5, 8);
+```
+
+//output
+```
+0:2
+1:5
+```
