@@ -19,3 +19,18 @@
   elem.style.background = 'red';
 </script>
 ```
+
+**2) getElementsByTagName()** 
+
+- The document method, getElementByTagName() will give you all the elements with a particular tag name in a collection.
+
+```html
+<h1> Dom with tagname</h1>
+<p>Learning DOM</p>
+<p>Nice to learn dom</p>
+
+<script>
+        var myPara = document.getElementsByTagName('p');
+        console.log(myPara);
+</script>
+```
