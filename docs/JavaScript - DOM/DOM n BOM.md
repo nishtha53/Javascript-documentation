@@ -43,3 +43,37 @@ if (confirm("Go to Wikipedia?")) {
 ```
 
 => The location object allows us to read the current URL and can redirect the browser to a new one.
+
+## DOM Tree
+
+**Let's understand with example:**
+
+![domtree](./domtree.png)
+
+## Walking the DOM
+
+- The DOM allows us to do anything with elements and their contents, but first we need to reach the corresponding DOM object.
+
+- All operations on the DOM start with the document object. That’s the main “entry point” to DOM. From it we can access any node.
+
+**Let's see DOM nodes:**
+
+![dom-nodes](./dom%20nodes.jpg)
+
+The topmost tree nodes are available directly as document properties:
+
+``<html>`` = document.documentElement
+The topmost document node is document.documentElement. That’s the DOM node of the ``<html>`` tag.
+
+``<body>`` = document.body
+Another widely used DOM node is the ``<body>`` element – document.body.
+
+``<head>`` = document.head
+The ``<head>`` tag is available as document.head.
+
+**Children: childNodes, firstChild, lastChild**
+
+There are two terms that we’ll use from now on:
+
+- Child nodes (or children) – elements that are direct children. In other words, they are nested exactly in the given one. For instance, `<head>` and `<body>` are children of `<html>` element.
+- Descendants – all elements that are nested in the given one, including children, their children and so on.
