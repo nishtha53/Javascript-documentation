@@ -97,3 +97,7 @@ New text added
 The new BODY!
 ```
 
+**5) innertext**
+
+- innertext will also change/show text which you want to display.
+
