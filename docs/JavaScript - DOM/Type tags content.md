@@ -1,5 +1,5 @@
 ---
-Sidebar_position : 3
+sidebar_position : 3
 ---
 
 ## Node type property and display content
