@@ -1,3 +1,8 @@
+---
+Sidebar_position : 1
+---
+
+
 ## Browser environment, specs
 
 - The JavaScript language was initially created for web browsers. Since then, it has evolved into a language with many uses and platforms.

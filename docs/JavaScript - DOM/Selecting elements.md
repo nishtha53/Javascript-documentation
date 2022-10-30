@@ -1,3 +1,9 @@
+---
+Sidebar_position : 2
+---
+
+
+
 ## Selecting and manipulating elements Methods:
 
 **1) getElementById()** 
