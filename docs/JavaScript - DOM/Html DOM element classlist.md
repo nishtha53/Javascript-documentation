@@ -2,7 +2,7 @@
 sidebar_position : 7
 ---
 
-- The classList property returns the CSS classnames of an element.
+=> The classList property returns the CSS classnames of an element.
 
 
 **1) classList.add()**
