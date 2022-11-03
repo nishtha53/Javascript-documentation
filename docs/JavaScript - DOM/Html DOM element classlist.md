@@ -56,4 +56,4 @@ sidebar_position : 7
 
 **12) values()**	
 
-- Returns an Iterator with the values in the list
+- Returns an Iterator with the values in the list.
