@@ -178,6 +178,41 @@ window.addEventListener("scroll", function(){
 ```
 
 
+**6) Window resize Event**
+
+- window resize event is used to resize and know the size in height and width.
+
+**Example**
+
+```html
+
+<h1>Window resize event</h1>
+
+<script>
+window.addEventListener("resize", function(){
+   console.log(`size of window width is ${window.innerWidth}`);
+   console.log(`size of window height is ${window.innerHeight}`);
+})
+</script>
+```
+
+
+**7) Keyboard: keydown and keyup**
+
+- Keyboard events should be used when we want to handle keyboard actions (virtual keyboard also counts). For instance, to react on arrow keys Up and Down or hotkeys (including combinations of keys).
+
+**Example**
+
+```html
+<p>Press key on your keyboard</p>
+<script>
+document.addEventListener("keydown", function(){
+  alert("A key was presses!");
+})
+</script>
+
+// once any key is pressed alert will show.
+```
 
 
 ## Event object
