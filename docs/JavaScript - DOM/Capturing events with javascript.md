@@ -252,7 +252,7 @@ link.addEventListener("click", function(){
 });
 </script>
 
-// it won't redirect to google but give alert message as said in code.
+// it won't redirect to google but give alert message as said in code because used preventDefault method.
 ```
 
 
