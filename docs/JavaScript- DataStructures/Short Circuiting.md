@@ -6,7 +6,8 @@ sidebar_position: 3
 
 - It basically means, terminating further evaluation of a statement because the condition proved to be false.
 
-3 things about OR operator: 
+=> 3 things about OR operator: 
+
 1.) It can take ANY data type. 
 
 2.) It can return ANY data type. 
