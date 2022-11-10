@@ -50,3 +50,22 @@ if (restaurant.orderPizza) {
 restaurant.orderPizza &&
   restaurant.orderPizza('Black-Olives', 'Cheese', 'Red Paprika'); // called in single line -> checks if it exists and then calls. 
 ```
+
+## Nullish Coalescing Operator
+
+- In above example OR operator doesn’t work with 0 integer value or empty string, in such case Nullish Coalescing Operator is used. 
+
+- For this operator, only **null and undefined** are **falsy values**, rest all are truthy values.
+
+- Nullish Coalescing Operator is written as `??`.
+
+**Example**
+
+```js
+restaurant.numGuests = 0;
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guests1); // 10 
+
+const guestCorrect = restaurant.numGuests  ?? 10;
+console.log(guestCorrect)  //0
+```
