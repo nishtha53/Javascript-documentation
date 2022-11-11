@@ -67,3 +67,8 @@ console.log(object['first' + nameKey])
 nistha
 ```
 
+## Object Literals
+
+- If you need to add another object in a object, just write its name that is declared earlier and it will be included.
+
+- For variables i.e. properties names, we can compute values: “ [`day-${2+3}`] “ => this will give variable name as day-5. Just use [   ].
