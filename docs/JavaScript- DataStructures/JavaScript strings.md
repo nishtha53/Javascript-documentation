@@ -80,11 +80,72 @@ sidebar_position: 9
 
 
 
+###  11) split method
+
+- The split string method in javascript divides the given string intro substring and returns an array of substrings.
+
+- The method takes an argument which is a pattern to be used for dividing the string.
+
+- f the pattern is an empty string ('') then the method split the string at each character.
+
+- If the pattern is a string (' ') then the method split the string at each space
+If the pattern can be a regular expression. '\n' splits the string at each new line
+The limit defines the maximum number of substrings to be returned. If it is 0 then an empty array ([]) is returned.
 
 
 
+### 12) substr method
+
+- The substr() string method in javascript is used to extract a substring from a string. It returns a part of the string, starting at a specific index and ending after a given number of characters.
+
+- `startIndex` - It specifies the index value from where the substring starts
+
+- `length` - It defines number of characters to be extracted
+
+### 13) substring method
+
+- The substring() method extracts a part of string between 2 given index values. It returns a part of the string, starting at a specific index and ending after a given number of characters.
+
+```js
+str.substring(startIndex, endIndex)
+```
+
+- `startIndex` - It specifies the index value from where the substring starts
+
+- `endIndex` - It specifies the index value from where the substring ends
+
+- If endIndex is not specified then it is treated as the last character of the string.
+
+- If the value of startIndex is greater than the value of endIndex then value of these two variables is swapped.
 
 
+
+### 14) toLowerCase() method
+
+- The toLowerCase() string method in javascript converts the case of a string to lowercase and returns it as a new string.
+
+
+
+### 15) toUpperCase() method
+
+- The toUpperCase string method in javascript returns a new string by converting the calling string to uppercase.
+
+
+
+### 16) toString method
+
+- The toString() string method in javascript returns a string representing the specified object.
+
+- This method also convert numbers to strings in a different number system. For example you can convert a number to a string in binary system by using toString(2), octal system by using toString(8) and hexadecimal system by using toString(16), etc.
+
+
+### 17) trim method
+
+- The trim() string method in javascript removes whitespaces from both ends of the string. Whitespaces are space, tabs, newline, etc.
+
+### 18) valueOf method
+
+- The valueOf() string method in javascript returns the primitive value of a String object.
 
 
 
