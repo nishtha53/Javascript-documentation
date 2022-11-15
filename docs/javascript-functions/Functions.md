@@ -168,6 +168,8 @@ createBooking('LH123', undefined, 100); // If you want to avoid passing numPasse
 
 - First class is just a feature that programming language either has or doesnot have. It means all functions are values so first class function is not in practice where as higher order function are in practice.
 
-
-
 ![function](./fun.png)
+
+## Callback function
+
+- Functions that are passed as an argument to another function are called callback functions. e.g.: event listeners, setTimeout etc.
