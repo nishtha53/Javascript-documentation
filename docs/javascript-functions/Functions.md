@@ -156,3 +156,14 @@ createBooking('LH123', undefined, 100); // If you want to avoid passing numPasse
 - When we pass primitive value, we are storing that value in a new variable defined in parameter of function statement and not passing the original value. So any change in parameter is not reflected in original value.
 
 - When we pass reference value, we are passing the reference (that points to actual object in memory heap). If any changes are done here, the value at reference is changed and therefore reflected in the value outside function as well. **Changing these objects can be fatal to program and should be done carefully.**
+
+
+## First class function and Higher order functions
+
+- Functions are treated as value in JS. These functions can be passed as arguments, can be stored in variables and can be returned as well.
+
+- Functions are just another type of objects in JS.
+
+- A function is called higher order function if receives another function as an argument or returns a function or both.
+
+![function](./fun.png)
