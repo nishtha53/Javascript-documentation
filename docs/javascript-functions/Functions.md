@@ -112,3 +112,47 @@ addArrow(2, 5, 8);
 0:2
 1:5
 ```
+
+## Default Parameters
+
+- While using default value, expressions can also be used to calculate value of a parameter based on the value of parameter before it.
+
+- You can't skip one parameter here. In order to do so you may just pass 'undefined'.
+
+
+```js
+const bookings = [];
+
+const createBooking = function (
+  flightNum,
+  numPassengers = 1,
+  price = 200 * numPassengers // Default value can be calculated as well. The parameters used in expression must be defined before
+) {
+  //   ES-5 way of doing things
+  //   numPassengers = numPassengers || 1;
+  //   price = price || 199;
+
+  const booking = {
+    flightNum,
+    numPassengers,
+    price,
+  };
+
+  console.log(booking);
+  bookings.push(booking);
+};
+
+createBooking('LH123');
+createBooking('LH123', 5);
+createBooking('LH123', 3);
+createBooking('LH123', 0);
+createBooking('LH123', 3, 500);
+// createBooking('LH123', , 500); // Gives error
+createBooking('LH123', undefined, 100); // If you want to avoid passing numPassengers => Default value assigned*/
+```
+
+## Value vs reference
+
+- When we pass primitive value, we are storing that value in a new variable defined in parameter of function statement and not passing the original value. So any change in parameter is not reflected in original value.
+
+- When we pass reference value, we are passing the reference (that points to actual object in memory heap). If any changes are done here, the value at reference is changed and therefore reflected in the value outside function as well. **Changing these objects can be fatal to program and should be done carefully.**
