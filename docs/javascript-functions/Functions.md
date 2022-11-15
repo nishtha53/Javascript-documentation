@@ -166,4 +166,8 @@ createBooking('LH123', undefined, 100); // If you want to avoid passing numPasse
 
 - A function is called higher order function if receives another function as an argument or returns a function or both.
 
+- First class is just a feature that programming language either has or doesnot have. It means all functions are values so first class function is not in practice where as higher order function are in practice.
+
+
+
 ![function](./fun.png)
