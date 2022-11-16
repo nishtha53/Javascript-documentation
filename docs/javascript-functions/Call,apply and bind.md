@@ -29,7 +29,7 @@ sidebar_position: 3
 
 - The bind() method returns a new function and allows passing in a this array and any number of arguments.
 
-
+- This can be very useful like in event listeners where this will be pointed at DOM element on which event is happening. Also, we need to pass a callback function in adding a event listener.
 
 **Syntax:**
 
