@@ -173,3 +173,30 @@ createBooking('LH123', undefined, 100); // If you want to avoid passing numPasse
 ## Callback function
 
 - Functions that are passed as an argument to another function are called callback functions. e.g.: event listeners, setTimeout etc.
+
+
+## Immediately Invoked Function Expression(IIFE)
+
+- These functions are executed only once. It works with arrow functions as well.
+
+- It’s not much of a feature but rather a pattern/practice that developers picked up.
+
+- Function is kept within ( ) and called immediately after declaration.
+
+```js
+const runOnce = function () {
+  console.log(`This will run once`);
+};
+
+runOnce(); // This will run once
+runOnce(); // This will run once
+
+(function () {
+  console.log(`run once`);
+})(); // run once
+
+(() => console.log(`This will also run once.`))(); // Works on arrow function as well | This will also run once
+```
+
+
+## Closures
