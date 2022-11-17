@@ -200,3 +200,29 @@ runOnce(); // This will run once
 
 
 ## Closures
+
+- In closures, function always has access to the lexical scope where it was defined. Even if that function’s execution context is deleted from the call stack, it is still able to access its lexical environment.
+
+```js
+const secureBooking = function () {
+  let passengerCount = 0;
+
+  return function () {
+    passengerCount++;
+    console.log(`Passengers present: ${passengerCount}`);
+  };
+};
+
+const booker = secureBooking();
+booker(); // secure booking EC(Execution Context) is deleted but still remembers the passengerCount from lexical environment of its parent. || Passengers present: 1
+booker(); // Passengers present: 2
+booker(); // Passengers present: 3
+
+const booker2 = secureBooking(); // creates a separate closure
+booker2(); // Passengers present: 1 | booker2 has formed a separate closure and in its scope, passenerCount value will be different, hence makes the code reusable as well.
+booker2(); // Passengers present: 2
+
+console.dir(secureBooking);
+console.dir(booker); // See in scopes --> Closures are available --> passengersCount is available.
+console.dir(booker2);
+```
