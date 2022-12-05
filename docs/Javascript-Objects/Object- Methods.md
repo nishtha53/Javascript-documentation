@@ -16,7 +16,6 @@ const details = {
 		return 2037 - birthyear;
 	}
 }
-
 console.log(person.calcAge(1991));  // 46
 ```
 
@@ -66,5 +65,3 @@ console.log(details);
 //output
 Location added to object.
 ```
-
-

@@ -175,3 +175,13 @@ console.log(animals.includes("cat"));
 true
 ```
 
+## At method
+
+- At method will help us to find the index position of array.
+
+**Example:**
+
+```js
+const arr = [23 , 11 , 64];
+console.log(arr.at(0));
+```
