@@ -37,3 +37,24 @@ sidebar_position: 1
 **4) Polymorphism**
 
 - A child class can overwrite a method it inherited from a parent class.
+
+
+## OOP in JavaScript
+
+- OOP in JavaScript is prototype. Objects are link to certain prototype object. Prototype object contains methods and properties that all the object linked to that prototype can access and used. This is know as prototypal inheritance.
+
+## 3 Ways of implementing Prototypal inheritance in JavaScript
+
+**1) Constructor functions**
+
+- Technique to create objects from a function.
+- This is how built-in objects like Arrays,Maps or Sets are actually implemented.
+
+**2) ES6 Classes**
+
+- ES6 classes work exactly like constructor functions.
+- Modern way to write OOP in JavaScript.
+
+3) Object.create()
+
+- The easiest and most straightforward way of linking an object to a prototype object.
